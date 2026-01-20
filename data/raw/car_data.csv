@@ -1,0 +1,48 @@
+Style,Price,MPG,Horsepower,Engine,CargoRoom_cu_ft,Torque_lb_ft,0-60,Top Speed,Curb Weight,Brand,Model,Year
+320i Sedan 4D,"$8,925",28 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,270 lb-ft,7.1 seconds,130 mph,3340 lbs,Bmw,3-series,2015
+320i xDrive Sedan 4D,"$9,175",27 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,270 lb-ft,7.1 seconds,130 mph,3495 lbs,Bmw,3-series,2015
+328i Gran Turismo xDrive Sedan 4D,"$10,250",26 MPG,N/A,"4-Cyl, SULEV, Turbo, 2.0 Liter",18.4 cu ft,NA,6.1 seconds,130 mph,3935 lbs,Bmw,3-series,2015
+328i xDrive Sedan 4D,"$10,000",26 MPG,240 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,255 lb-ft,5.7 seconds,130 mph,3495 lbs,Bmw,3-series,2015
+328i Sedan 4D,"$10,350",27 MPG,240 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,255 lb-ft,5.8 seconds,130 mph,3480 lbs,Bmw,3-series,2015
+328d Sedan 4D,"$10,900",37 MPG,181 @ 4000 RPM,"4-Cyl, Turbo Diesel, 2.0 Liter",17 cu ft,280 lb-ft,7.4 seconds,130 mph,3510 lbs,Bmw,3-series,2015
+335i Gran Turismo xDrive Sedan 4D,"$11,350",24 MPG,300 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",18.4 cu ft,300 lb-ft,5.1 seconds,130 mph,4010 lbs,Bmw,3-series,2015
+328d xDrive Sedan 4D,"$11,650",35 MPG,181 @ 4000 RPM,"4-Cyl, Turbo Diesel, 2.0 Liter",17 cu ft,280 lb-ft,7.4 seconds,130 mph,3670 lbs,Bmw,3-series,2015
+ActiveHybrid 3 Sedan 4D,"$13,600",28 MPG,335 @ 5800 RPM,"6-Cyl, Hybrid, Trbo, 3.0L",NA,332 lb-ft,5.2 seconds,130 mph,3825 lbs,Bmw,3-series,2015
+335i Sedan 4D,"$14,500",25 MPG,300 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",17 cu ft,300 lb-ft,5.1 seconds,130 mph,3595 lbs,Bmw,3-series,2015
+335i xDrive Sedan 4D,"$14,750",24 MPG,300 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",17 cu ft,300 lb-ft,4.8 seconds,130 mph,3720 lbs,Bmw,3-series,2015
+328i xDrive Sport Wagon 4D,"$12,400",26 MPG,240 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17.5 cu ft,255 lb-ft,6 seconds,130 mph,3780 lbs,Bmw,3-series,2015
+328d xDrive Sport Wagon 4D,"$13,850",35 MPG,181 @ 4000 RPM,"4-Cyl, Turbo Diesel, 2.0 Liter",17.5 cu ft,280 lb-ft,7.7 seconds,130 mph,3825 lbs,Bmw,3-series,2015
+320i Sedan 4D,"$10,450",28 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,200 lb-ft,7.1 seconds,130 mph,3370 lbs,Bmw,3-series,2016
+328i Sedan 4D,"$10,750",27 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,5.7 seconds,130 mph,3320 lbs,Bmw,3-series,2016
+320i xDrive Sedan 4D,"$11,250",27 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,200 lb-ft,7.1 seconds,130 mph,3510 lbs,Bmw,3-series,2016
+328i Gran Turismo xDrive Sedan 4D,"$11,300",26 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,N/A,130 mph,3915 lbs,Bmw,3-series,2016
+328d Sedan 4D,"$11,950",36 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,7.4 seconds,130 mph,3510 lbs,Bmw,3-series,2016
+328i xDrive Sedan 4D,"$12,100",26 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,5.7 seconds,130 mph,3635 lbs,Bmw,3-series,2016
+328d xDrive Sedan 4D,"$12,150",34 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,7.3 seconds,130 mph,3695 lbs,Bmw,3-series,2016
+330e Sedan 4D,"$12,600",31 MPG,184 @ 5000 RPM,"4-Cyl, Hybrid, 2.0T",NA,215 lb-ft,5.9 seconds,130 mph,3915 lbs,Bmw,3-series,2016
+335i Gran Turismo xDrive Sedan 4D,"$14,850",23 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,5.1 seconds,130 mph,4010 lbs,Bmw,3-series,2016
+340i Sedan 4D,"$15,900",26 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,5.1 seconds,130 mph,3695 lbs,Bmw,3-series,2016
+340i xDrive Sedan 4D,"$21,000",26 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,4.8 seconds,130 mph,3720 lbs,Bmw,3-series,2016
+328d xDrive Sport Wagon 4D,"$14,200",34 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,N/A,130 mph,3895 lbs,Bmw,3-series,2016
+328i xDrive Sport Wagon 4D,"$15,650",26 MPG,241 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,258 lb-ft,6 seconds,130 mph,3825 lbs,Bmw,3-series,2016
+Premium Sedan 4D,"$9,950",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+Prestige Sedan 4D,"$10,750",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+Premium Plus Sedan 4D,"$11,350",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+Premium Sedan 4D,"$10,600",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2016
+Premium Plus Sedan 4D,"$12,400",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2016
+C 250 Coupe 2D,"$8,025",25 MPG,N/A,"4-Cyl, Turbo, 1.8 Liter",12.4 cu ft,229 lb-ft,7.1 seconds,N/A,3428 lbs,Mercedes-benz,C-class,2015
+C 350 4MATIC Coupe 2D,"$11,800",22 MPG,302 @ 6500 RPM,"V6, 3.5 Liter",12.4 cu ft,273 lb-ft,5.9 seconds,N/A,3737 lbs,Mercedes-benz,C-class,2015
+C 350 Coupe 2D,"$13,550",23 MPG,302 @ 6500 RPM,"V6, 3.5 Liter",12.4 cu ft,273 lb-ft,5.9 seconds,N/A,3616 lbs,Mercedes-benz,C-class,2015
+C 63 AMG Coupe 2D,N/A,15 MPG,451 @ 6500 RPM,"V8, 6.3 Liter",12.4 cu ft,443 lb-ft,4.4 seconds,155 mph,3924 lbs,Mercedes-benz,C-class,2015
+C 63 AMG Edition 507 Coupe 2D,N/A,15 MPG,507 @ 6500 RPM,"V8, 6.3 Liter",12.4 cu ft,450 lb-ft,N/A,174 mph,3924 lbs,Mercedes-benz,C-class,2015
+C 300 Sedan 4D,"$11,350",28 MPG,241 @ 5550 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,273 lb-ft,5.9 seconds,130 mph,3417 lbs,Mercedes-benz,C-class,2015
+C 300 4MATIC Sedan 4D,"$13,050",27 MPG,241 @ 5500 RPM,"4-Cyl, Turbo, 2.0 Liter",12.4 cu ft,273 lb-ft,6.2 seconds,130 mph,3583 lbs,Mercedes-benz,C-class,2015
+C 400 4MATIC Sedan 4D,"$14,750",24 MPG,329 @ 5250 RPM,"V6, Turbo, 3.0 Liter",12.4 cu ft,354 lb-ft,N/A,130 mph,3737 lbs,Mercedes-benz,C-class,2015
+C 63 AMG Sedan 4D,"$26,500",20 MPG,469 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",12.6 cu ft,479 lb-ft,4 seconds,155 mph,3856 lbs,Mercedes-benz,C-class,2015
+C 63 S AMG Sedan 4D,"$27,600",20 MPG,503 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",12.6 cu ft,516 lb-ft,3.9 seconds,N/A,3924 lbs,Mercedes-benz,C-class,2015
+C 300 Sedan 4D,"$13,050",28 MPG,241 @ 5550 RPM,"4-Cyl, Turbo, 2.0 Liter",12.6 cu ft,273 lb-ft,6.2 seconds,130 mph,3417 lbs,Mercedes-benz,C-class,2016
+C 300 4MATIC Sedan 4D,"$12,600",27 MPG,241 @ 5500 RPM,"4-Cyl, Turbo, 2.0 Liter",12.6 cu ft,273 lb-ft,6.2 seconds,130 mph,3594 lbs,Mercedes-benz,C-class,2016
+C 350e Plug-In Hybrid Sedan 4D,"$14,900",30 MPG,208 hp,"4-Cyl, Hybrid, Turbo, 2.0 Liter",11.8 cu ft,258 lb-ft,5.9 seconds,130 mph,4057 lbs,Mercedes-benz,C-class,2016
+C 450 AMG 4MATIC Sedan 4D,"$18,850",24 MPG,362 @ 5500 RPM,"V6, Twin Turbo, 3.0 Liter",15.4 cu ft,384 lb-ft,4.8 seconds,155 mph,3727 lbs,Mercedes-benz,C-class,2016
+C 63 AMG Sedan 4D,"$27,000",20 MPG,469 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",15.4 cu ft,479 lb-ft,4 seconds,155 mph,3782 lbs,Mercedes-benz,C-class,2016
+C 63 S AMG Sedan 4D,"$29,500",20 MPG,503 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",15.4 cu ft,516 lb-ft,3.9 seconds,180 mph,3816 lbs,Mercedes-benz,C-class,2016
