@@ -39,6 +39,11 @@ from selenium.common.exceptions import TimeoutException
 import pandas as pd
 import time
 
+
+#=========
+# This version is for sedans only. Still need edit the results of data outcome
+#=========
+
 # Dictionary of car brands and their models (URL slugs used by KBB)
 _CARS = {
     "acura": [
