@@ -1,4 +1,37 @@
 Style,Price,MPG,Horsepower,Engine,CargoRoom_cu_ft,Torque_lb_ft,0-60,Top Speed,Curb Weight,Brand,Model,Year
+1.8T Premium Plus Cabriolet 2D,"$9,250",28 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",NA,200 lb-ft,"4-Cyl, Turbo, 1.8 Liter",200 lb-ft,130 mph,Audi,A3,2015
+1.8T Premium Cabriolet 2D,"$10,500",28 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",NA,200 lb-ft,"4-Cyl, Turbo, 1.8 Liter",200 lb-ft,130 mph,Audi,A3,2015
+1.8T Prestige Cabriolet 2D,"$10,800",28 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",NA,200 lb-ft,"4-Cyl, Turbo, 1.8 Liter",200 lb-ft,130 mph,Audi,A3,2015
+2.0T Premium Plus Cabriolet 2D,"$10,850",26 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,258 lb-ft,"4-Cyl, Turbo, 2.0 Liter",258 lb-ft,130 mph,Audi,A3,2015
+2.0T Premium Cabriolet 2D,"$12,350",26 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,258 lb-ft,"4-Cyl, Turbo, 2.0 Liter",258 lb-ft,130 mph,Audi,A3,2015
+2.0T Prestige Cabriolet 2D,"$13,000",26 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,258 lb-ft,"4-Cyl, Turbo, 2.0 Liter",258 lb-ft,130 mph,Audi,A3,2015
+1.8T Premium Sedan 4D,"$9,525",27 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",12.3 cu ft,200 lb-ft,7.2 seconds,130 mph,3175 lbs,Audi,A3,2015
+1.8T Premium Plus Sedan 4D,"$10,150",27 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",12.3 cu ft,200 lb-ft,7.2 seconds,130 mph,3175 lbs,Audi,A3,2015
+2.0T Premium Plus Sedan 4D,"$10,650",27 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",10 cu ft,258 lb-ft,5.8 seconds,130 mph,3362 lbs,Audi,A3,2015
+TDI Premium Sedan 4D,"$10,400",36 MPG,150 @ 3500 RPM,"4-Cyl, Turbo Diesel, 2.0 Liter",NA,236 lb-ft,N/A,130 mph,N/A,Audi,A3,2015
+2.0T Premium Sedan 4D,"$9,775",27 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",10 cu ft,258 lb-ft,5.8 seconds,130 mph,3362 lbs,Audi,A3,2015
+TDI Prestige Sedan 4D,"$10,450",36 MPG,150 @ 3500 RPM,"4-Cyl, Turbo Dsl, 2.0L",NA,236 lb-ft,N/A,130 mph,N/A,Audi,A3,2015
+TDI Premium Plus Sedan 4D,"$10,550",36 MPG,150 @ 3500 RPM,"4-Cyl, Turbo Dsl, 2.0L",NA,236 lb-ft,N/A,130 mph,N/A,Audi,A3,2015
+1.8T Prestige Sedan 4D,"$10,550",27 MPG,170 @ 4500 RPM,"4-Cyl, Turbo, 1.8 Liter",12.3 cu ft,200 lb-ft,7.2 seconds,130 mph,3175 lbs,Audi,A3,2015
+2.0T Prestige Sedan 4D,"$13,700",27 MPG,220 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",10 cu ft,258 lb-ft,5.8 seconds,130 mph,3362 lbs,Audi,A3,2015
+Premium Sedan 4D,"$17,600",30 MPG,184 @ 4400 RPM,"4-Cyl, Turbo, 2.0 Liter",12.3 cu ft,222 lb-ft,6.6 seconds,130 mph,3197 lbs,Audi,A3,2020
+Premium Plus Sedan 4D,"$19,600",30 MPG,184 @ 4400 RPM,"4-Cyl, Turbo, 2.0 Liter",12.3 cu ft,222 lb-ft,6.6 seconds,130 mph,3417 lbs,Audi,A3,2020
+S line Premium Plus Sedan 4D,"$20,500",25 MPG,228 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",10 cu ft,258 lb-ft,5.4 seconds,130 mph,3417 lbs,Audi,A3,2020
+S line Premium Sedan 4D,"$21,100",25 MPG,228 @ 4500 RPM,"4-Cyl, Turbo, 2.0 Liter",10 cu ft,258 lb-ft,5.4 seconds,130 mph,3197 lbs,Audi,A3,2020
+Premium Sedan 4D,"$9,950",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+Prestige Sedan 4D,"$10,750",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+Premium Plus Sedan 4D,"$11,350",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
+45 Premium Sedan 4D,"$17,650",27 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,273 lb-ft,5.6 seconds,130 mph,3627 lbs,Audi,A4,2020
+40 Premium Sedan 4D,"$18,700",30 MPG,188 @ 4200 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,236 lb-ft,7.1 seconds,130 mph,3417 lbs,Audi,A4,2020
+40 Premium Plus Sedan 4D,"$18,950",30 MPG,188 @ 4200 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,236 lb-ft,7.1 seconds,130 mph,3417 lbs,Audi,A4,2020
+45 Premium Plus Sedan 4D,"$20,000",27 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,273 lb-ft,5.6 seconds,130 mph,3627 lbs,Audi,A4,2020
+45 Prestige Sedan 4D,"$24,400",27 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,273 lb-ft,5.6 seconds,130 mph,3627 lbs,Audi,A4,2020
+40 Prestige Sedan 4D,"$24,900",30 MPG,188 @ 4200 RPM,"4-Cyl, Turbo, 2.0 Liter",12 cu ft,236 lb-ft,7.1 seconds,130 mph,3417 lbs,Audi,A4,2020
+Premium Wagon 4D,"$19,000",26 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,273 lb-ft,5.9 seconds,130 mph,3847 lbs,Audi,A4,2020
+Premium Plus Wagon 4D,"$24,900",26 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,273 lb-ft,5.9 seconds,130 mph,3847 lbs,Audi,A4,2020
+Prestige Wagon 4D,"$27,000",26 MPG,248 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,273 lb-ft,5.9 seconds,130 mph,3847 lbs,Audi,A4,2020
+Sedan 4D,"$39,500",23 MPG,394 @ 5850 RPM,"5-Cyl, Turbo, 2.5 Liter",10 cu ft,354 lb-ft,3.9 seconds,155 mph,3593 lbs,Audi,Rs-3,2020
+Nardo Edition Sedan 4D,"$39,500",23 MPG,394 @ 5850 RPM,"5-Cyl, Turbo, 2.5 Liter",10 cu ft,354 lb-ft,3.9 seconds,174 mph,3593 lbs,Audi,Rs-3,2020
 320i Sedan 4D,"$8,925",28 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,270 lb-ft,7.1 seconds,130 mph,3340 lbs,Bmw,3-series,2015
 320i xDrive Sedan 4D,"$9,175",27 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17 cu ft,270 lb-ft,7.1 seconds,130 mph,3495 lbs,Bmw,3-series,2015
 328i Gran Turismo xDrive Sedan 4D,"$10,250",26 MPG,N/A,"4-Cyl, SULEV, Turbo, 2.0 Liter",18.4 cu ft,NA,6.1 seconds,130 mph,3935 lbs,Bmw,3-series,2015
@@ -12,37 +45,17 @@ ActiveHybrid 3 Sedan 4D,"$13,600",28 MPG,335 @ 5800 RPM,"6-Cyl, Hybrid, Trbo, 3.
 335i xDrive Sedan 4D,"$14,750",24 MPG,300 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",17 cu ft,300 lb-ft,4.8 seconds,130 mph,3720 lbs,Bmw,3-series,2015
 328i xDrive Sport Wagon 4D,"$12,400",26 MPG,240 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",17.5 cu ft,255 lb-ft,6 seconds,130 mph,3780 lbs,Bmw,3-series,2015
 328d xDrive Sport Wagon 4D,"$13,850",35 MPG,181 @ 4000 RPM,"4-Cyl, Turbo Diesel, 2.0 Liter",17.5 cu ft,280 lb-ft,7.7 seconds,130 mph,3825 lbs,Bmw,3-series,2015
-320i Sedan 4D,"$10,450",28 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,200 lb-ft,7.1 seconds,130 mph,3370 lbs,Bmw,3-series,2016
-328i Sedan 4D,"$10,750",27 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,5.7 seconds,130 mph,3320 lbs,Bmw,3-series,2016
-320i xDrive Sedan 4D,"$11,250",27 MPG,180 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,200 lb-ft,7.1 seconds,130 mph,3510 lbs,Bmw,3-series,2016
-328i Gran Turismo xDrive Sedan 4D,"$11,300",26 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,N/A,130 mph,3915 lbs,Bmw,3-series,2016
-328d Sedan 4D,"$11,950",36 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,7.4 seconds,130 mph,3510 lbs,Bmw,3-series,2016
-328i xDrive Sedan 4D,"$12,100",26 MPG,240 @ 5000 RPM,"4-Cyl, SULEV, Turbo, 2.0L",NA,255 lb-ft,5.7 seconds,130 mph,3635 lbs,Bmw,3-series,2016
-328d xDrive Sedan 4D,"$12,150",34 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,7.3 seconds,130 mph,3695 lbs,Bmw,3-series,2016
-330e Sedan 4D,"$12,600",31 MPG,184 @ 5000 RPM,"4-Cyl, Hybrid, 2.0T",NA,215 lb-ft,5.9 seconds,130 mph,3915 lbs,Bmw,3-series,2016
-335i Gran Turismo xDrive Sedan 4D,"$14,850",23 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,5.1 seconds,130 mph,4010 lbs,Bmw,3-series,2016
-340i Sedan 4D,"$15,900",26 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,5.1 seconds,130 mph,3695 lbs,Bmw,3-series,2016
-340i xDrive Sedan 4D,"$21,000",26 MPG,320 @ 5500 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,330 lb-ft,4.8 seconds,130 mph,3720 lbs,Bmw,3-series,2016
-328d xDrive Sport Wagon 4D,"$14,200",34 MPG,180 @ 4000 RPM,"4-Cyl, Trbo Dsl, 2.0L",NA,280 lb-ft,N/A,130 mph,3895 lbs,Bmw,3-series,2016
-328i xDrive Sport Wagon 4D,"$15,650",26 MPG,241 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,258 lb-ft,6 seconds,130 mph,3825 lbs,Bmw,3-series,2016
-Premium Sedan 4D,"$9,950",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
-Prestige Sedan 4D,"$10,750",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
-Premium Plus Sedan 4D,"$11,350",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2015
-Premium Sedan 4D,"$10,600",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2016
-Premium Plus Sedan 4D,"$12,400",25 MPG,220 @ 4450 RPM,"4-Cyl, Turbo, 2.0 Liter",34 cu ft,258 lb-ft,6.2 seconds,130 mph,3693 lbs,Audi,A4,2016
-C 250 Coupe 2D,"$8,025",25 MPG,N/A,"4-Cyl, Turbo, 1.8 Liter",12.4 cu ft,229 lb-ft,7.1 seconds,N/A,3428 lbs,Mercedes-benz,C-class,2015
-C 350 4MATIC Coupe 2D,"$11,800",22 MPG,302 @ 6500 RPM,"V6, 3.5 Liter",12.4 cu ft,273 lb-ft,5.9 seconds,N/A,3737 lbs,Mercedes-benz,C-class,2015
-C 350 Coupe 2D,"$13,550",23 MPG,302 @ 6500 RPM,"V6, 3.5 Liter",12.4 cu ft,273 lb-ft,5.9 seconds,N/A,3616 lbs,Mercedes-benz,C-class,2015
-C 63 AMG Coupe 2D,N/A,15 MPG,451 @ 6500 RPM,"V8, 6.3 Liter",12.4 cu ft,443 lb-ft,4.4 seconds,155 mph,3924 lbs,Mercedes-benz,C-class,2015
-C 63 AMG Edition 507 Coupe 2D,N/A,15 MPG,507 @ 6500 RPM,"V8, 6.3 Liter",12.4 cu ft,450 lb-ft,N/A,174 mph,3924 lbs,Mercedes-benz,C-class,2015
-C 300 Sedan 4D,"$11,350",28 MPG,241 @ 5550 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,273 lb-ft,5.9 seconds,130 mph,3417 lbs,Mercedes-benz,C-class,2015
-C 300 4MATIC Sedan 4D,"$13,050",27 MPG,241 @ 5500 RPM,"4-Cyl, Turbo, 2.0 Liter",12.4 cu ft,273 lb-ft,6.2 seconds,130 mph,3583 lbs,Mercedes-benz,C-class,2015
-C 400 4MATIC Sedan 4D,"$14,750",24 MPG,329 @ 5250 RPM,"V6, Turbo, 3.0 Liter",12.4 cu ft,354 lb-ft,N/A,130 mph,3737 lbs,Mercedes-benz,C-class,2015
-C 63 AMG Sedan 4D,"$26,500",20 MPG,469 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",12.6 cu ft,479 lb-ft,4 seconds,155 mph,3856 lbs,Mercedes-benz,C-class,2015
-C 63 S AMG Sedan 4D,"$27,600",20 MPG,503 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",12.6 cu ft,516 lb-ft,3.9 seconds,N/A,3924 lbs,Mercedes-benz,C-class,2015
-C 300 Sedan 4D,"$13,050",28 MPG,241 @ 5550 RPM,"4-Cyl, Turbo, 2.0 Liter",12.6 cu ft,273 lb-ft,6.2 seconds,130 mph,3417 lbs,Mercedes-benz,C-class,2016
-C 300 4MATIC Sedan 4D,"$12,600",27 MPG,241 @ 5500 RPM,"4-Cyl, Turbo, 2.0 Liter",12.6 cu ft,273 lb-ft,6.2 seconds,130 mph,3594 lbs,Mercedes-benz,C-class,2016
-C 350e Plug-In Hybrid Sedan 4D,"$14,900",30 MPG,208 hp,"4-Cyl, Hybrid, Turbo, 2.0 Liter",11.8 cu ft,258 lb-ft,5.9 seconds,130 mph,4057 lbs,Mercedes-benz,C-class,2016
-C 450 AMG 4MATIC Sedan 4D,"$18,850",24 MPG,362 @ 5500 RPM,"V6, Twin Turbo, 3.0 Liter",15.4 cu ft,384 lb-ft,4.8 seconds,155 mph,3727 lbs,Mercedes-benz,C-class,2016
-C 63 AMG Sedan 4D,"$27,000",20 MPG,469 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",15.4 cu ft,479 lb-ft,4 seconds,155 mph,3782 lbs,Mercedes-benz,C-class,2016
-C 63 S AMG Sedan 4D,"$29,500",20 MPG,503 @ 5500 RPM,"V8, Twin Turbo, 4.0 Liter",15.4 cu ft,516 lb-ft,3.9 seconds,180 mph,3816 lbs,Mercedes-benz,C-class,2016
+330i Sedan 4D,"$20,700",30 MPG,254 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,294 lb-ft,5.6 seconds,130 mph,3589 lbs,Bmw,3-series,2020
+330i xDrive Sedan 4D,"$22,200",28 MPG,254 @ 5000 RPM,"4-Cyl, Turbo, 2.0 Liter",NA,294 lb-ft,5.3 seconds,130 mph,3772 lbs,Bmw,3-series,2020
+M340i Sedan 4D,"$35,000",25 MPG,382 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,369 lb-ft,4.4 seconds,130 mph,3849 lbs,Bmw,3-series,2020
+M340i xDrive Sedan 4D,"$37,800",25 MPG,382 @ 5800 RPM,"6-Cyl, Turbo, 3.0 Liter",NA,369 lb-ft,4.1 seconds,130 mph,3968 lbs,Bmw,3-series,2020
+ES 350 Sedan 4D,"$15,350",24 MPG,268 @ 6200 RPM,"V6, 3.5 Liter",15.2 cu ft,248 lb-ft,7.1 seconds,130 mph,3549 lbs,Lexus,Es,2015
+ES 300h Sedan 4D,"$16,150",40 MPG,200 @ 5700 RPM,"4-Cyl, Hybrid, 2.5 Liter",12.1 cu ft,156 lb-ft,8.1 seconds,112 mph,3660 lbs,Lexus,Es,2015
+ES 350 Crafted Line Sedan 4D,"$16,250",24 MPG,268 @ 6200 RPM,"V6, 3.5 Liter",NA,248 lb-ft,N/A,N/A,N/A,Lexus,Es,2015
+ES 350 Sedan 4D,"$25,500",26 MPG,302 @ 6600 RPM,"V6, 3.5 Liter",16.7 cu ft,267 lb-ft,16.7 cu ft,267 lb-ft,3649 lbs,Lexus,Es,2020
+ES 350 Luxury Sedan 4D,"$26,300",26 MPG,302 @ 6600 RPM,"V6, 3.5 Liter",16.7 cu ft,267 lb-ft,16.7 cu ft,267 lb-ft,3649 lbs,Lexus,Es,2020
+ES 350 F SPORT Sedan 4D,"$27,000",25 MPG,302 @ 6600 RPM,"V6, 3.5 Liter",16.7 cu ft,267 lb-ft,16.7 cu ft,267 lb-ft,3649 lbs,Lexus,Es,2020
+ES 300h Sedan 4D,"$26,800",44 MPG,215 @ 5700 RPM,"4-Cyl, Hybrid, 2.5 Liter",16.7 cu ft,163 lb-ft,16.7 cu ft,163 lb-ft,3704 lbs,Lexus,Es,2020
+ES 300h Ultra Luxury Sedan 4D,"$29,100",44 MPG,215 @ 5700 RPM,"4-Cyl, Hybrid, 2.5 Liter",16.7 cu ft,163 lb-ft,16.7 cu ft,163 lb-ft,3704 lbs,Lexus,Es,2020
+ES 300h Luxury Sedan 4D,"$29,200",44 MPG,215 @ 5700 RPM,"4-Cyl, Hybrid, 2.5 Liter",16.7 cu ft,163 lb-ft,16.7 cu ft,163 lb-ft,3704 lbs,Lexus,Es,2020
+ES 350 Ultra Luxury Sedan 4D,"$30,300",26 MPG,302 @ 6600 RPM,"V6, 3.5 Liter",16.7 cu ft,267 lb-ft,16.7 cu ft,267 lb-ft,3649 lbs,Lexus,Es,2020

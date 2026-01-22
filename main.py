@@ -14,13 +14,20 @@ if __name__ == "__main__":
     print_ram_usage("Start")
 
     df = kbb_worker()
-    print_ram_usage("After scraping")
-    os.makedirs("Car-Recommendation-System/data/raw", exist_ok=True)
+    # Win
+    # print_ram_usage("After scraping")
+    # os.makedirs("Car-Recommendation-System/data/raw", exist_ok=True)
+
+    # Mac
+    DATA_DIR = "data/raw"
+    os.makedirs(DATA_DIR, exist_ok=True)
+
 
     if df.empty:
         print("⚠️ No data scraped. CSV not saved.")
     else:
-        df.to_csv("Car-Recommendation-System/data/raw/car_data.csv", index=False)
+        # df.to_csv("Car-Recommendation-System/data/raw/car_data.csv", index=False) # Win
+        df.to_csv(f"{DATA_DIR}/car_data.csv", index=False) # Mac
         print("✅ Data saved to Car-Recommendation-System/data/raw/car_data.csv")
 
     elapsed = time.time() - start_time
@@ -28,5 +35,5 @@ if __name__ == "__main__":
     print(f"Process time: {elapsed:.2f} seconds")
 
 
-#.venv\Scripts\Activate
+#WINDOWS:.venv\Scripts\Activate
 #

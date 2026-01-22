@@ -33,17 +33,124 @@ from app.core.driver import setup_chrome_driver as scd
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 # Data processing
 import pandas as pd
 import time
 
 # Dictionary of car brands and their models (URL slugs used by KBB)
-CARS = {'bmw':['3-series'],
-        'audi':['a4'],
-        'mercedes-benz':['c-class']
-        }
-YEARS = [2015, 2016]
+_CARS = {
+    "acura": [
+        "tlx",
+        "rlx"
+    ],
+    "alfa-romeo": [
+        "giulia"
+    ],
+    "aston-martin": [
+        "rapide"
+    ],
+    "audi": [
+        "a3",
+        "a4",
+        "a6",
+        "a8",
+        "s3",
+        "rs-3",
+        "s4",
+        "r-4",
+        "s6",
+        "rs-6",
+        "s8"
+    ],
+    "bentley": [
+        "flying-spur"
+    ],
+    "bmw": [
+        "2-series-gran-coupe",
+        "3-series",
+        "5-series",
+        "7-series",
+        "m3",
+        "m5"
+    ],
+    "cadillac": [
+        "ct4",
+        "ct5",
+        "ct6",
+        "xts"
+    ],
+    "genesis": [
+        "g70",
+        "g80",
+        "g90"
+    ],
+    "infiniti": [
+        "q50",
+        "q70"
+    ],
+    "jaguar": [
+        "xe",
+        "xf",
+        "xj"
+    ],
+    "lexus": [
+        "is",
+        "es",
+        "gs",
+        "ls"
+    ],
+    "lincoln": [
+        "mkz",
+        "continental"
+    ],
+    "maserati": [
+        "ghibli",
+        "quattroporte"
+    ],
+    "mercedes-benz": [
+        "a-class",
+        "c-class",
+        "e-class",
+        "s-class",
+        "cla",
+        "cls",
+        "amg-c-class",
+        "amg-e-class",
+        "amg-s-class"
+    ],
+    "porsche": [
+        "panamera"
+    ],
+    "rolls-royce": [
+        "ghost",
+        "phantom"
+    ],
+    "tesla": [
+        "model-3",
+        "model-s"
+    ],
+    "volvo": [
+        "s60",
+        "s90"
+    ]
+}
+CARS = {
+    "audi": [
+        "a3",      # exists for many years
+        "a4",      # very stable
+        "rs-3"     # ONLY test with year >= 2017
+    ],
+    "bmw": [
+        "3-series" # very stable
+    ],
+    "lexus": [
+        "es"       # very stable
+    ]
+}
+
+YEARS = [2015, 2020]
 #To do list
 # Edit text so it is more stable -done
 # Add more cars
@@ -51,98 +158,6 @@ YEARS = [2015, 2016]
 # Try to access all styles of a car -done
 
 
-# def scrape_kbb_styles(driver, wait, url):
-    # print(f"Visiting: {url}")
-    # driver.get(url)
-    # data = []
-    # styles_count = 0
-
-    # # ✅ STABLE WAIT: wait for styles section (NOT text)
-    # styles_section = wait.until(
-    #     EC.presence_of_element_located((By.ID, "styles"))
-    # )
-
-    
-    
-    # # 🔍 Find ALL clickable tabs (no text assumptions)
-    # tabs = styles_section.find_elements(
-    #     By.XPATH,
-    #     ".//button[@role='tab' or @aria-selected]"
-    # )
-
-    # # Fallback: some pages have no tabs
-    # if not tabs:
-    #     tabs = [None]
-
-    # for idx, tab in enumerate(tabs):
-    #     if tab:
-    #         category = tab.text.strip() or f"category_{idx}"
-    #         print(f"➡️ Clicking tab: {category}")
-    #         previous_html = styles_section.get_attribute("innerHTML")
-
-    #         driver.execute_script("arguments[0].click();", tab)
-
-    #         # Wait until content ACTUALLY changes
-    #         wait.until(
-    #             lambda d: d.find_element(By.ID, "styles")
-    #             .get_attribute("innerHTML") != previous_html
-    #         )
-    #         # Wait for DOM to update after click
-    #         wait.until(
-    #             EC.presence_of_element_located(
-    #                 (By.XPATH, ".//a[@title]")
-    #             )
-    #         )
-
-    #     styles_section = driver.find_element(By.ID, "styles")
-
-    #     # ✅ Find style cards inside styles section
-    #     style_cards = styles_section.find_elements(
-    #         By.XPATH,
-    #         ".//a[@title and contains(@href, '/')]"
-    #     )
-    #     styles_count = len(style_cards)
-
-
-    #     for card in style_cards:
-    #         texts = card.text.split("\n")
-    #         if len(texts) < 9:
-    #             continue
-    #         print(texts)
-    #         cargo_cu_ft, torque_lb_ft = extract_cargo_and_torque(texts[5:7])
-    #         # print(texts)
-    #         data.append({
-    #             "Style": safe_get(texts, 0),
-    #             "Price": safe_get(texts, 1),
-    #             "MPG": safe_get(texts, 2),
-    #             "Horsepower": safe_get(texts, 3),
-    #             "Engine": safe_get(texts, 4),
-    #             "CargoRoom_cu_ft": cargo_cu_ft,
-    #             "Torque_lb_ft": torque_lb_ft, 
-    #             "0-60": safe_get(texts, -4),
-    #             "Top Speed": safe_get(texts, -3),
-    #             "Curb Weight": safe_get(texts, -2),
-    #         })
-    # print(f"🛞 Found {styles_count} styles.")
-
-    # return pd.DataFrame(data)
-
-
-# Page loading & navigation helpers
-def load_styles_section(driver, wait, url):
-    """
-    Load a KBB model page and wait until the 'Styles' section appears.
-
-    Why:
-    - Avoids fragile text-based waits
-    - The 'styles' ID is consistent across KBB pages
-    """
-    print(f"Visiting: {url}")
-    driver.get(url)
-
-    return wait.until(
-        EC.presence_of_element_located((By.ID, "styles"))
-    )
 
 def get_style_tabs(styles_section):
     """
@@ -197,7 +212,26 @@ def get_style_cards(driver):
         By.XPATH,
         ".//a[@title and contains(@href, '/')]"
     )
-        
+
+# Page loading & navigation helpers
+def load_styles_section(driver, wait, url):
+    """
+    Load the Styles section on a Kelley Blue Book (KBB) car page.
+
+    NOTE:
+    - Some model-year combinations do not exist on KBB
+      (e.g. Audi RS3 2015).
+    - When the page does not exist, the 'styles' section
+      will never appear and this function will timeout.
+    """
+
+    driver.get(url)
+
+    return wait.until(
+        EC.presence_of_element_located((By.ID, "styles"))
+    )
+
+
 # Data extraction helpers
 def parse_style_card(card):
     """
@@ -268,6 +302,20 @@ def scrape_kbb_styles(driver, wait, url):
     - Pandas DataFrame containing style-level data
     """
     data = []
+
+    try:
+        # Attempt to load the Styles section
+        styles_section = load_styles_section(driver, wait, url)
+
+    except TimeoutException:
+        # Most common reason for timeout:
+        # - The model-year page does not exist on KBB
+        # - Example: Audi RS3 2015
+        # This is expected behavior and should be skipped.
+        print(f"⏭️ Skipping unavailable model-year page: {url}")
+        return pd.DataFrame(data)  # or return empty DataFrame if your pipeline expects it
+
+    print(f"Visiting: {url}")
 
     styles_section = load_styles_section(driver, wait, url)
     tabs = get_style_tabs(styles_section)
